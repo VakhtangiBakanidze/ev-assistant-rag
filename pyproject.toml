@@ -1,0 +1,53 @@
+
+[project]
+name = "ev-assistant-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "vakhtangi", email = "vakhtangibakanidze@gmail.com" }
+]
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "elasticsearch==8.15.0",
+    "ipykernel>=7.3.0",
+    "jupyter>=1.1.1",
+    "openai>=3.8.0",
+    "pandas>=3.0.5",
+    "python-dotenv>=1.2.3",
+    "streamlit>=1.63.0",
+    "sentence-transformers>=3.0.0",
+    "torch", # Explicitly add torch to help the uv resolver
+    "matplotlib>=3.11.1",
+]
+
+[project.scripts]
+ev-assistant-rag = "ev_assistant_rag:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.16.6",
+]
+
+# Map torch AND its sibling libraries to the CPU index
+[tool.uv.sources]
+torch = [
+  { index = "pytorch-cpu" },
+]
+torchvision = [
+  { index = "pytorch-cpu" },
+]
+torchaudio = [
+  { index = "pytorch-cpu" },
+]
+
+# Define the custom PyTorch CPU index
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true

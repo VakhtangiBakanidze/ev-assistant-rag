@@ -1,0 +1,46 @@
+method,question,correct_vehicle_id,correct_rank,hit,reciprocal_rank,retrieved_vehicle_ids
+Text search,What is the electric driving range of the 2027 Lucid Gravity GT w/20F21R wheels (3R)?,50653,1,1,1.0,50653 | 49111 | 50029 | 50655 | 50657
+Text search,What is the combined MPGe efficiency of the 2024 MINI Cooper SE Hardtop 2 door?,46972,1,1,1.0,46972 | 42508 | 42634 | 43953 | 45330
+Text search,What is the 240V Level 2 charging time for the 2026 Rolls-Royce Spectre (22 inch Wheels)?,49979,1,1,1.0,49979 | 47480 | 48442 | 49977 | 47478
+Text search,What is the electric driving range of the 2024 Hyundai Ioniq 6 Long range RWD (18 inch Wheels)?,46957,1,1,1.0,46957 | 46622 | 46955 | 46620 | 46958
+Text search,What is the combined MPGe efficiency of the 2026 BMW i5 xDrive40 Sedan (19 inch Wheels)?,49616,1,1,1.0,49616 | 48322 | 50603 | 49613 | 46923
+Text search,What is the 240V Level 2 charging time for the 2025 Hyundai Ioniq 6 RWD (20 inch Wheels)?,48363,1,1,1.0,48363 | 48365 | 46623 | 46958 | 48362
+Text search,What is the electric driving range of the 2027 Rivian R1S Premium Long Range (20in)?,50672,1,1,1.0,50672 | 50673 | 50684 | 50671 | 50685
+Text search,What is the combined MPGe efficiency of the 2027 Mercedes-Benz EQS 550 4matic (SUV)?,50663,1,1,1.0,50663 | 49689 | 46010 | 46012 | 47850
+Text search,What is the 240V Level 2 charging time for the 2026 Rivian R1S All-Terrain Dual Large Plus (20in)?,49725,1,1,1.0,49725 | 48428 | 49700 | 49727 | 48416
+Text search,What is the electric driving range of the 2026 Rivian R1T Performance Dual Max (20in)?,49696,1,1,1.0,49696 | 48426 | 49697 | 49721 | 47878
+Text search,What is the combined MPGe efficiency of the 2023 Volkswagen ID.4 S?,46037,1,1,1.0,46037 | 47924 | 49158 | 46036 | 43558
+Text search,What is the 240V Level 2 charging time for the 2027 Audi S6 e-tron (20 inch wheels)?,50370,1,1,1.0,50370 | 50371 | 45985 | 47441 | 48304
+Text search,What is the electric driving range of the 2026 Polestar 4 Long Range Single Motor?,50033,1,1,1.0,50033 | 48407 | 50034 | 48412 | 50035
+Text search,What is the combined MPGe efficiency of the 2022 Tesla Model 3 Long Range AWD?,45011,1,1,1.0,45011 | 42275 | 43401 | 46204 | 47908
+Text search,What is the 240V Level 2 charging time for the 2014 smart fortwo electric drive coupe?,34394,1,1,1.0,34394 | 31065 | 33306 | 35859 | 36861
+Vector search,What is the electric driving range of the 2027 Lucid Gravity GT w/20F21R wheels (3R)?,50653,1,1,1.0,50653 | 49675 | 50029 | 50658 | 49111
+Vector search,What is the combined MPGe efficiency of the 2024 MINI Cooper SE Hardtop 2 door?,46972,2,1,0.5,42634 | 46972 | 43953 | 42508 | 45330
+Vector search,What is the 240V Level 2 charging time for the 2026 Rolls-Royce Spectre (22 inch Wheels)?,49979,0,0,0.0,48442 | 48443 | 49980 | 47481 | 47480
+Vector search,What is the electric driving range of the 2024 Hyundai Ioniq 6 Long range RWD (18 inch Wheels)?,46957,1,1,1.0,46957 | 46622 | 46958 | 46623 | 46959
+Vector search,What is the combined MPGe efficiency of the 2026 BMW i5 xDrive40 Sedan (19 inch Wheels)?,49616,0,0,0.0,48335 | 50195 | 45994 | 48323 | 50193
+Vector search,What is the 240V Level 2 charging time for the 2025 Hyundai Ioniq 6 RWD (20 inch Wheels)?,48363,0,0,0.0,48362 | 46623 | 46957 | 46958 | 46622
+Vector search,What is the electric driving range of the 2027 Rivian R1S Premium Long Range (20in)?,50672,3,1,0.3333333333333333,50671 | 50673 | 50672 | 50683 | 50684
+Vector search,What is the combined MPGe efficiency of the 2027 Mercedes-Benz EQS 550 4matic (SUV)?,50663,1,1,1.0,50663 | 49689 | 48396 | 50662 | 47850
+Vector search,What is the 240V Level 2 charging time for the 2026 Rivian R1S All-Terrain Dual Large Plus (20in)?,49725,0,0,0.0,49714 | 49698 | 49739 | 49720 | 47889
+Vector search,What is the electric driving range of the 2026 Rivian R1T Performance Dual Max (20in)?,49696,2,1,0.5,49721 | 49696 | 49697 | 48438 | 49704
+Vector search,What is the combined MPGe efficiency of the 2023 Volkswagen ID.4 S?,46037,0,0,0.0,45258 | 48773 | 48774 | 46036 | 49157
+Vector search,What is the 240V Level 2 charging time for the 2027 Audi S6 e-tron (20 inch wheels)?,50370,3,1,0.3333333333333333,48684 | 50371 | 50370 | 48683 | 44778
+Vector search,What is the electric driving range of the 2026 Polestar 4 Long Range Single Motor?,50033,0,0,0.0,50034 | 50035 | 48412 | 50232 | 50230
+Vector search,What is the combined MPGe efficiency of the 2022 Tesla Model 3 Long Range AWD?,45011,0,0,0.0,42281 | 48796 | 42279 | 42280 | 40386
+Vector search,What is the 240V Level 2 charging time for the 2014 smart fortwo electric drive coupe?,34394,2,1,0.5,33306 | 34394 | 35859 | 39192 | 39784
+Hybrid search,What is the electric driving range of the 2027 Lucid Gravity GT w/20F21R wheels (3R)?,50653,1,1,1.0,50653 | 50029 | 49111 | 49675 | 49673
+Hybrid search,What is the combined MPGe efficiency of the 2024 MINI Cooper SE Hardtop 2 door?,46972,1,1,1.0,46972 | 42634 | 42508 | 43953 | 45330
+Hybrid search,What is the 240V Level 2 charging time for the 2026 Rolls-Royce Spectre (22 inch Wheels)?,49979,3,1,0.3333333333333333,48442 | 47480 | 49979 | 49980 | 48443
+Hybrid search,What is the electric driving range of the 2024 Hyundai Ioniq 6 Long range RWD (18 inch Wheels)?,46957,1,1,1.0,46957 | 46622 | 46958 | 46955 | 46623
+Hybrid search,What is the combined MPGe efficiency of the 2026 BMW i5 xDrive40 Sedan (19 inch Wheels)?,49616,0,0,0.0,48322 | 50603 | 48323 | 49618 | 50364
+Hybrid search,What is the 240V Level 2 charging time for the 2025 Hyundai Ioniq 6 RWD (20 inch Wheels)?,48363,3,1,0.3333333333333333,46623 | 48362 | 48363 | 46958 | 48365
+Hybrid search,What is the electric driving range of the 2027 Rivian R1S Premium Long Range (20in)?,50672,1,1,1.0,50672 | 50673 | 50671 | 50684 | 50683
+Hybrid search,What is the combined MPGe efficiency of the 2027 Mercedes-Benz EQS 550 4matic (SUV)?,50663,1,1,1.0,50663 | 49689 | 47850 | 48396 | 46012
+Hybrid search,What is the 240V Level 2 charging time for the 2026 Rivian R1S All-Terrain Dual Large Plus (20in)?,49725,2,1,0.5,49727 | 49725 | 49714 | 48428 | 49698
+Hybrid search,What is the electric driving range of the 2026 Rivian R1T Performance Dual Max (20in)?,49696,1,1,1.0,49696 | 49721 | 49697 | 48426 | 48438
+Hybrid search,What is the combined MPGe efficiency of the 2023 Volkswagen ID.4 S?,46037,0,0,0.0,46036 | 49157 | 45258 | 49158 | 45413
+Hybrid search,What is the 240V Level 2 charging time for the 2027 Audi S6 e-tron (20 inch wheels)?,50370,1,1,1.0,50370 | 50371 | 48684 | 45985 | 50601
+Hybrid search,What is the electric driving range of the 2026 Polestar 4 Long Range Single Motor?,50033,5,1,0.2,50034 | 50035 | 48412 | 50232 | 50033
+Hybrid search,What is the combined MPGe efficiency of the 2022 Tesla Model 3 Long Range AWD?,45011,5,1,0.2,43401 | 42281 | 42279 | 46204 | 45011
+Hybrid search,What is the 240V Level 2 charging time for the 2014 smart fortwo electric drive coupe?,34394,1,1,1.0,34394 | 33306 | 35859 | 31065 | 39192

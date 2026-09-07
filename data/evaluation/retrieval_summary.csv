@@ -1,0 +1,4 @@
+retrieval_method,hit_rate_at_5,mrr_at_5,hit_rate_at_5_percent
+Text search,1.0,1.0,100.0
+Hybrid search,0.8666666666666667,0.6377777777777777,86.7
+Vector search,0.5333333333333333,0.3444444444444444,53.3

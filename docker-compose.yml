@@ -1,0 +1,48 @@
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.15.0
+    container_name: ev-assistant-elasticsearch
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - ES_JAVA_OPTS=-Xms1g -Xmx1g
+    ports:
+      - "9200:9200"
+    volumes:
+      - elasticsearch_data:/usr/share/elasticsearch/data
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fs http://localhost:9200/_cluster/health || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+
+  ev-assistant:
+    build: .
+    container_name: ev-assistant-app
+    env_file:
+      - .env
+    environment:
+      - ELASTICSEARCH_URL=http://elasticsearch:9200
+      - ELASTICSEARCH_INDEX=ev-vehicles
+    ports:
+      - "8501:8501"
+    volumes:
+      - feedback_data:/app/data/feedback
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+
+  dashboard:
+    build: .
+    container_name: ev-assistant-dashboard
+    command: streamlit run app/dashboard.py --server.address=0.0.0.0 --server.port=8502
+    ports:
+      - "8502:8502"
+    volumes:
+      - feedback_data:/app/data/feedback
+    depends_on:
+      - ev-assistant
+
+volumes:
+  elasticsearch_data:
+  feedback_data:

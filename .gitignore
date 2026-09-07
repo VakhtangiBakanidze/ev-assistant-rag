@@ -1,0 +1,26 @@
+# Environment variables and secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local data and feedback
+data/raw/
+data/processed/
+data/feedback/
+
+# Operating-system files
+.DS_Store
+
+# Streamlit
+.streamlit/secrets.toml
+

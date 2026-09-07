@@ -1,0 +1,11 @@
+question,prompt,correct,grounded,has_citation,clear,notes
+"What is the electric driving range of the 2027 Lucid Gravity GT w/20F21R wheels (3R)?",basic,1,1,0,1,"Correct answer, but no source citation."
+"What is the electric driving range of the 2027 Lucid Gravity GT w/20F21R wheels (3R)?",grounded,1,1,1,1,"Correct answer with source citation."
+"What is the combined MPGe efficiency of the 2024 MINI Cooper SE Hardtop 2 door?",basic,1,1,0,1,"Correct answer, but no source citation."
+"What is the combined MPGe efficiency of the 2024 MINI Cooper SE Hardtop 2 door?",grounded,1,1,1,1,"Correct answer with source citation."
+"What is the 240V charging time for the 2026 Rolls-Royce Spectre (22 inch Wheels)?",basic,1,1,0,1,"Correct answer, but no source citation."
+"What is the 240V charging time for the 2026 Rolls-Royce Spectre (22 inch Wheels)?",grounded,1,1,1,1,"Correct answer with source citation."
+"What is the electric driving range of the 2024 Hyundai Ioniq 6 Long range RWD (18 inch Wheels)?",basic,1,1,0,1,"Correct answer, but no source citation."
+"What is the electric driving range of the 2024 Hyundai Ioniq 6 Long range RWD (18 inch Wheels)?",grounded,1,1,1,1,"Correct answer with source citation."
+"What is the combined MPGe efficiency of the 2026 BMW i5 xDrive40 Sedan (19 inch Wheels)?",basic,0,1,0,1,"Answers with a 2025 BMW instead of the requested 2026 vehicle."
+"What is the combined MPGe efficiency of the 2026 BMW i5 xDrive40 Sedan (19 inch Wheels)?",grounded,1,1,1,1,"Correctly explains that the requested 2026 vehicle is not in the retrieved records."
